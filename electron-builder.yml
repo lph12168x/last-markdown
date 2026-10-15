@@ -1,5 +1,5 @@
-appId: com.lph12168x.composer-markdown-editor
-productName: Composer Markdown Editor
+appId: com.lph12168x.last-markdown
+productName: Last Markdown
 copyright: Copyright © 2026 lph12168x
 directories:
   output: dist

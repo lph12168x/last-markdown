@@ -1,4 +1,4 @@
-# Composer Markdown Editor
+# Last Markdown
 
 A desktop Markdown editor built with Electron and React. It supports both local and remote (SSH/SFTP) workspaces, live preview, Git integration, and an outline panel.
 
@@ -48,7 +48,7 @@ A desktop Markdown editor built with Electron and React. It supports both local 
 ### Install
 
 ```bash
-cd composer-markdown-editor
+cd last-markdown
 npm install
 ```
 

@@ -1,5 +1,6 @@
 {
-  "name": "composer-markdown-editor",
+  "name": "last-markdown",
+  "productName": "Last Markdown",
   "version": "1.0.0",
   "description": "A Markdown editor with local/remote directory management",
   "main": "./out/main/index.js",
