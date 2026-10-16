@@ -21,6 +21,9 @@ mac:
   target:
     - dmg
     - zip
+  # Uniform release asset names: <product>-<version>-<platform>-<arch>[-<kind>].<ext>
+  # The defaults carry the arch on macOS only, and never on Windows or Linux.
+  artifactName: ${productName}-${version}-mac-${arch}.${ext}
   # Sign and notarize on macOS when environment variables are present.
   # identity: ${env.APPLE_IDENTITY}
   # notarize:
@@ -33,11 +36,12 @@ linux:
   category: Office
   target:
     - AppImage
+  artifactName: ${productName}-${version}-linux-${arch}.${ext}
   maintainer: lph12168x
   vendor: lph12168x
 nsis:
   oneClick: false
   allowToChangeInstallationDirectory: true
-  artifactName: ${productName}-${version}-setup.${ext}
+  artifactName: ${productName}-${version}-win-${arch}-setup.${ext}
 portable:
-  artifactName: ${productName}-${version}-portable.${ext}
+  artifactName: ${productName}-${version}-win-${arch}-portable.${ext}
